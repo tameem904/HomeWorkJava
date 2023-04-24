@@ -12,7 +12,9 @@ public class StringMethodHw01 {
         String  word="Hello";
         if(!word.isEmpty()){
             if(word.length()>=3 & word.length()%2!=0){
-                System.out.println(word.substring(3,4));
+             int middle=word.length()/2;
+             char middleChar=word.charAt(middle);
+                System.out.println(middleChar);
 
 
 
