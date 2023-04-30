@@ -11,7 +11,7 @@ public class StringHW02 {
         String rev="";
         for (int i = word.length()-1; i >= 0 ; i--) {
             rev=rev+word.charAt(i);}
-            if(rev.equals(word)){
+            if(rev.equalsIgnoreCase(word)){
                 System.out.println("Its a palindrome");
 
             }

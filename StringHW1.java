@@ -7,7 +7,7 @@ public class StringHW1 {
         String word[]=str.split(" ");
         String revString="";
 
-        for (int i = 0; i <word.length ; i++) {
+        for (int i = 0; i < word.length ; i++) {
             String words=word[i];
             String revWord="";
 
